@@ -3,18 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>hop2</title>
 
-    <!-- TODO: remplace l'URL ci-dessous par ta vraie destination -->
-    <meta http-equiv="refresh" content="0; url=https://EXEMPLE.com" />
-    <link rel="canonical" href="https://EXEMPLE.com" />
+    <style>
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: #000;
+        overflow: hidden;
+      }
 
-    <title>Redirection…</title>
+      img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: contain; /* mets "cover" si tu veux remplir sans bandes */
+        display: block;
+      }
+    </style>
   </head>
 
   <body>
-    <p>Redirection en cours…</p>
-    <p>
-      Si rien ne se passe, <a href="https://EXEMPLE.com">clique ici</a>.
-    </p>
+    <img src="hop2.png" alt="Image" />
   </body>
 </html>
